@@ -1,0 +1,117 @@
+/* CSS Document */
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+.wrapper{ width:1100px; margin:0 auto;}
+.top{ font-size:30px; color:#fff; margin-top:70px;}
+.middle{ text-align:right; font-size:30px; color:#fff; margin-top:70px;}
+.seachbox{ text-align:center; margin-top:120px; color:#fff; line-height:35px;}
+.textbox{width:325px; font-size:19px; height:40px;}
+.button{width:325px;padding:11px 0px; height:42px;} 
+ 
+.toptext{font-size:40px;}
+.thankstitle{ font-size:40px;}
+.middles{ margin-bottom:50px; margin-top:50px;}
+
+.codebox{ padding:10px 0px 11px 0px; width:300px; margin-top:10px; color:#000; border-radius:5px; border:0px; font-size:18px; color: #666666; font-weight:bold; text-align:center; }
+ 
+ 
+ 
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+ 
+.wrapper{ width:750px; margin:0 auto;}
+.top{ font-size:30px; color:#fff; margin-top:150px;}
+.middle{ text-align:right; font-size:30px; color:#fff; margin-top:150px;}
+.seachbox{ text-align:center; margin-top:280px; color:#fff; line-height:35px; margin-bottom:500px;}
+.textbox{width:325px; }
+.button{width:325px;} 
+
+.toptext{font-size:40px;}
+
+ 
+.thankstitle{ font-size:40px;}
+.middles{ margin-bottom:50px; margin-top:50px; font-size:22px;}
+
+.codebox{ padding:10px 0px 11px 0px; width:300px; margin-top:10px; color:#000; border-radius:5px; border:0px; font-size:18px; color: #666666; font-weight:bold; text-align:center; }
+
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+.wrapper{ width:280px; margin:0 auto;}
+.top{ font-size:25px; color:#fff; margin-top:70px;}
+.middle{ text-align:right; font-size:25px; color:#fff; margin-top:70px;}
+.seachbox{ text-align:center; margin-top:80px; margin-bottom:50px; color:#fff; line-height:25px;}
+.textbox{width:280px; }
+.button{width:280px;} 
+.toptext{font-size:35px;}
+
+ 
+.thankstitle{ font-size:30px;}
+.middles{ margin-bottom:50px; margin-top:50px; font-size:16px;}
+ 
+.codebox{ padding:10px 0px 11px 0px; width:280px; margin-top:10px; color:#000; border-radius:5px; border:0px; font-size:18px; color: #666666; font-weight:bold; text-align:center; }
+.bs-wizard{ margin-bottom:50px;}
+
+.button{width:282px;padding:11px 0px; height:42px;} 
+
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+ 
+.wrapper{ width:400px; margin:0 auto;}
+.top{ font-size:28px; color:#fff; margin-top:70px;}
+.middle{ text-align:right; font-size:28px; color:#fff; margin-top:70px;}
+.seachbox{ text-align:center; margin-top:80px; margin-bottom:50px; color:#fff; line-height:25px;}
+.textbox{width:400px; }
+.button{width:400px;} 
+.toptext{font-size:35px;}
+
+ 
+.thankstitle{ font-size:35px;}
+.middles{ margin-bottom:50px; margin-top:50px; font-size:20px;}
+ 
+.bs-wizard{ margin-bottom:20px; margin-left:-50px;}
+ 
+.codebox{ padding:10px 0px 11px 0px; width:300px; margin-top:10px; color:#000; border-radius:5px; border:0px; font-size:18px; color: #666666; font-weight:bold; text-align:center; }
+ 
+ .button{width:402px;padding:11px 0px; height:42px;} 
+ 
+ }
